@@ -41,7 +41,7 @@ function activeTimer(rootSelector) {
         
         if (diff <= 0) { 
             stop();
-            Notiflix.Notify.failure('Timer stoped',   {
+            Notiflix.Notify.success('Timer stoped',   {
     timeout: 5000,
   });
             return;
